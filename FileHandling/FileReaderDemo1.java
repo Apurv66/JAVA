@@ -1,4 +1,4 @@
-import java.io.FileReader;
+import java.io.*;
 
 class FileReaderDemo1 {
     public static void main(String args[]) {
