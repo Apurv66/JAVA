@@ -1,5 +1,5 @@
 class ThrowsDemo {
-    // Method says it might throw ArithmeticException
+    
     static int divide(int a, int b) throws ArithmeticException {
         if (b == 0) {
             throw new ArithmeticException("Can't divide by zero!");
@@ -9,8 +9,8 @@ class ThrowsDemo {
 
     public static void main(String[] args) {
         try {
-            System.out.println(divide(10, 2));  // Works fine
-            System.out.println(divide(10, 0));  // Throws exception
+            System.out.println(divide(10, 2));
+            System.out.println(divide(10, 0));
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         }
