@@ -12,9 +12,9 @@ class Derived extends Base {
 class MethodOverriding {
     public static void main(String args[]){
         Base ref ;
-        Derived obj = new Derived();
+        Derived d = new Derived();
         Base b = new Base();
-        ref = obj;
+        ref = d;
         ref.method();
         ref = b;
         ref.method();
