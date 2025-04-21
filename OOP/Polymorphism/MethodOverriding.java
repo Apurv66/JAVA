@@ -8,7 +8,7 @@ class Derived extends Base {
         System.out.println("This is Derived class");
     }
 }
-class DynamicDispatch {
+class DynamicMethodDispatch {
     public static void main(String args[]){
         Base ref;
         Derived d = new Derived();
