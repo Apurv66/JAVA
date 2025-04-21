@@ -1,4 +1,3 @@
-// Run time polymorphism
 class Base {
     void method(){
         System.out.println("This is Base class");
